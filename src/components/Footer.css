@@ -1,0 +1,39 @@
+.footer {
+  background: #080812;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 40px 5vw;
+}
+
+.footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer__logo-dot {
+  color: #6C63FF;
+}
+
+.footer__tagline {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.footer__copy {
+  color: rgba(255, 255, 255, 0.25);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+}

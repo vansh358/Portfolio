@@ -1,0 +1,118 @@
+.contact {
+  padding: 100px 5vw 80px;
+  background: #080812;
+}
+
+.contact__container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact__heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  font-size: clamp(28px, 4vw, 48px);
+  color: #fff;
+  letter-spacing: -1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.contact__subtext {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 48px;
+}
+
+.contact__card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 40px 36px;
+  text-align: left;
+}
+
+.contact__success {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact__success-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.contact__success h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.contact__success p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  padding: 14px 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  border-color: rgba(108, 99, 255, 0.6);
+}
+
+.form-textarea {
+  resize: vertical;
+  margin-bottom: 8px;
+}
+
+.contact__links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.contact__link {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact__link:hover {
+  color: #6C63FF;
+}

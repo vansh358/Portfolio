@@ -1,0 +1,124 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0 5vw;
+  background: transparent;
+  transition: all 0.4s ease;
+}
+
+.navbar--scrolled {
+  background: rgba(8, 8, 18, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.navbar__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.navbar__logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.navbar__logo-dot {
+  color: #6C63FF;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.navbar__link {
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 4px 0;
+  transition: all 0.2s;
+}
+
+.navbar__link:hover {
+  color: #fff;
+}
+
+.navbar__link--active {
+  color: #6C63FF;
+  border-bottom-color: #6C63FF;
+}
+
+.navbar__cta {
+  background: #6C63FF;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.navbar__cta:hover {
+  opacity: 0.85;
+}
+
+.navbar__burger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+}
+
+.navbar__mobile {
+  background: rgba(8, 8, 18, 0.98);
+  padding: 20px 5vw 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.navbar__mobile-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar__mobile-link--active {
+  color: #6C63FF;
+}
+
+@media (max-width: 768px) {
+  .navbar__links {
+    display: none;
+  }
+  .navbar__burger {
+    display: block;
+  }
+}
