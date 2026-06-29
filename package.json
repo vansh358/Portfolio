@@ -13,6 +13,6 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "npx vite build"
   }
 }
